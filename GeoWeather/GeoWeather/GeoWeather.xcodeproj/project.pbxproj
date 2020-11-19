@@ -12,6 +12,8 @@
 		3F3F6489256622E900F4AEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F6487256622E900F4AEAB /* Main.storyboard */; };
 		3F3F648B256622EA00F4AEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F648A256622EA00F4AEAB /* Assets.xcassets */; };
 		3F3F648E256622EA00F4AEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F648C256622EA00F4AEAB /* LaunchScreen.storyboard */; };
+		3F3F649A256625FD00F4AEAB /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F6499256625FD00F4AEAB /* dark_background.pdf */; };
+		3F3F649E2566262300F4AEAB /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F649D2566262300F4AEAB /* light_background.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3F3F648A256622EA00F4AEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3F648D256622EA00F4AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3F648F256622EA00F4AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3F6499256625FD00F4AEAB /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = dark_background.pdf; path = "../../../../Clima-iOS13/Clima/dark_background.pdf"; sourceTree = "<group>"; };
+		3F3F649D2566262300F4AEAB /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = light_background.pdf; path = "../../../../Clima-iOS13/Clima/light_background.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		3F3F6482256622E900F4AEAB /* GeoWeather */ = {
 			isa = PBXGroup;
 			children = (
+				3F3F649D2566262300F4AEAB /* light_background.pdf */,
+				3F3F6499256625FD00F4AEAB /* dark_background.pdf */,
 				3F3F6483256622E900F4AEAB /* AppDelegate.swift */,
 				3F3F6485256622E900F4AEAB /* ViewController.swift */,
 				3F3F6487256622E900F4AEAB /* Main.storyboard */,
@@ -122,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F3F649E2566262300F4AEAB /* light_background.pdf in Resources */,
+				3F3F649A256625FD00F4AEAB /* dark_background.pdf in Resources */,
 				3F3F648E256622EA00F4AEAB /* LaunchScreen.storyboard in Resources */,
 				3F3F648B256622EA00F4AEAB /* Assets.xcassets in Resources */,
 				3F3F6489256622E900F4AEAB /* Main.storyboard in Resources */,
