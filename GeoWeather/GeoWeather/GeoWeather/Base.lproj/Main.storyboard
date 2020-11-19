@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,65 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GeoWeather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="navigationImg" translatesAutoresizingMaskIntoConstraints="NO" id="qvf-Yw-pWw">
+                                <rect key="frame" x="15" y="35" width="32" height="32"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GZX-Gn-kKQ">
+                                <rect key="frame" x="367" y="35" width="32" height="32"/>
+                                <state key="normal" image="searchImg"/>
+                                <connections>
+                                    <action selector="searchPressed:" destination="8bC-Xf-vdC" eventType="touchUpInside" id="lgC-gK-6hi"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter a city name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YvM-9B-MPG">
+                                <rect key="frame" x="55" y="35" width="300" height="30"/>
+                                <viewLayoutGuide key="safeArea" id="VQb-U4-4Hq"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" returnKeyType="go"/>
+                            </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background_image" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-ZP-2dF">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GZX-Gn-kKQ" firstAttribute="leading" secondItem="YvM-9B-MPG" secondAttribute="trailing" constant="15" id="21F-e5-2LJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GZX-Gn-kKQ" secondAttribute="trailing" constant="15" id="68p-mD-JUR"/>
+                            <constraint firstItem="qvf-Yw-pWw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="7Xq-l1-7ax"/>
+                            <constraint firstItem="RmP-ZP-2dF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9Vs-H9-ylw"/>
+                            <constraint firstItem="GZX-Gn-kKQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="Hh3-In-OCL"/>
+                            <constraint firstItem="GZX-Gn-kKQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="KSz-Zi-Kbg"/>
+                            <constraint firstItem="YvM-9B-MPG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="LuC-5n-IdE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GZX-Gn-kKQ" secondAttribute="trailing" constant="15" id="Qnt-ZK-2T8"/>
+                            <constraint firstItem="RmP-ZP-2dF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="XcF-hC-QDT"/>
+                            <constraint firstItem="YvM-9B-MPG" firstAttribute="leading" secondItem="qvf-Yw-pWw" secondAttribute="trailing" constant="15" id="eVr-wz-10d"/>
+                            <constraint firstItem="qvf-Yw-pWw" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="iel-Ds-opk"/>
+                            <constraint firstItem="GZX-Gn-kKQ" firstAttribute="leading" secondItem="YvM-9B-MPG" secondAttribute="trailing" constant="15" id="lcD-e6-TdX"/>
+                            <constraint firstItem="qvf-Yw-pWw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="s4i-fz-3rO"/>
+                            <constraint firstItem="qvf-Yw-pWw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="tv4-B7-XRR"/>
+                            <constraint firstItem="RmP-ZP-2dF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="w8b-dk-KDm"/>
+                            <constraint firstItem="RmP-ZP-2dF" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="yNB-ey-i7G"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outlet property="search" destination="YvM-9B-MPG" id="mjf-tK-cbV"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="133.33333333333334" y="123.09782608695653"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="background_image" width="836" height="661"/>
+        <image name="navigationImg" width="32" height="32"/>
+        <image name="searchImg" width="32" height="32"/>
+    </resources>
 </document>
