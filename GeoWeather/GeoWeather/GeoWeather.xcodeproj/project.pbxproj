@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F3F6444255CF1B100F4AEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F6443255CF1B100F4AEAB /* AppDelegate.swift */; };
-		3F3F6446255CF1B100F4AEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F6445255CF1B100F4AEAB /* ViewController.swift */; };
-		3F3F644B255CF1B300F4AEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F644A255CF1B300F4AEAB /* Assets.xcassets */; };
-		3F3F644E255CF1B300F4AEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F644C255CF1B300F4AEAB /* LaunchScreen.storyboard */; };
-		3F3F6456255CF39500F4AEAB /* dark_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F6455255CF39500F4AEAB /* dark_background.pdf */; };
-		3F3F6458255CF3AC00F4AEAB /* light_background.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F6457255CF3AC00F4AEAB /* light_background.pdf */; };
+		3F3F6484256622E900F4AEAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F6483256622E900F4AEAB /* AppDelegate.swift */; };
+		3F3F6486256622E900F4AEAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3F6485256622E900F4AEAB /* ViewController.swift */; };
+		3F3F6489256622E900F4AEAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F6487256622E900F4AEAB /* Main.storyboard */; };
+		3F3F648B256622EA00F4AEAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F648A256622EA00F4AEAB /* Assets.xcassets */; };
+		3F3F648E256622EA00F4AEAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3F648C256622EA00F4AEAB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F3F6440255CF1B100F4AEAB /* GeoWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F3F6443255CF1B100F4AEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F3F6445255CF1B100F4AEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F3F644A255CF1B300F4AEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3F3F644D255CF1B300F4AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3F3F644F255CF1B300F4AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F3F6455255CF39500F4AEAB /* dark_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = dark_background.pdf; sourceTree = "<group>"; };
-		3F3F6457255CF3AC00F4AEAB /* light_background.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = light_background.pdf; sourceTree = "<group>"; };
+		3F3F6480256622E900F4AEAB /* GeoWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3F6483256622E900F4AEAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3F6485256622E900F4AEAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3F6488256622E900F4AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3F648A256622EA00F4AEAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3F648D256622EA00F4AEAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3F648F256622EA00F4AEAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3F3F643D255CF1B100F4AEAB /* Frameworks */ = {
+		3F3F647D256622E900F4AEAB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +35,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F3F6437255CF1B100F4AEAB = {
+		3F3F6477256622E900F4AEAB = {
 			isa = PBXGroup;
 			children = (
-				3F3F6442255CF1B100F4AEAB /* GeoWeather */,
-				3F3F6441255CF1B100F4AEAB /* Products */,
+				3F3F6482256622E900F4AEAB /* GeoWeather */,
+				3F3F6481256622E900F4AEAB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3F3F6441255CF1B100F4AEAB /* Products */ = {
+		3F3F6481256622E900F4AEAB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F3F6440255CF1B100F4AEAB /* GeoWeather.app */,
+				3F3F6480256622E900F4AEAB /* GeoWeather.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F3F6442255CF1B100F4AEAB /* GeoWeather */ = {
+		3F3F6482256622E900F4AEAB /* GeoWeather */ = {
 			isa = PBXGroup;
 			children = (
-				3F3F6457255CF3AC00F4AEAB /* light_background.pdf */,
-				3F3F6455255CF39500F4AEAB /* dark_background.pdf */,
-				3F3F6443255CF1B100F4AEAB /* AppDelegate.swift */,
-				3F3F6445255CF1B100F4AEAB /* ViewController.swift */,
-				3F3F644A255CF1B300F4AEAB /* Assets.xcassets */,
-				3F3F644C255CF1B300F4AEAB /* LaunchScreen.storyboard */,
-				3F3F644F255CF1B300F4AEAB /* Info.plist */,
+				3F3F6483256622E900F4AEAB /* AppDelegate.swift */,
+				3F3F6485256622E900F4AEAB /* ViewController.swift */,
+				3F3F6487256622E900F4AEAB /* Main.storyboard */,
+				3F3F648A256622EA00F4AEAB /* Assets.xcassets */,
+				3F3F648C256622EA00F4AEAB /* LaunchScreen.storyboard */,
+				3F3F648F256622EA00F4AEAB /* Info.plist */,
 			);
 			path = GeoWeather;
 			sourceTree = "<group>";
@@ -70,13 +67,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F3F643F255CF1B100F4AEAB /* GeoWeather */ = {
+		3F3F647F256622E900F4AEAB /* GeoWeather */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F3F6452255CF1B300F4AEAB /* Build configuration list for PBXNativeTarget "GeoWeather" */;
+			buildConfigurationList = 3F3F6492256622EA00F4AEAB /* Build configuration list for PBXNativeTarget "GeoWeather" */;
 			buildPhases = (
-				3F3F643C255CF1B100F4AEAB /* Sources */,
-				3F3F643D255CF1B100F4AEAB /* Frameworks */,
-				3F3F643E255CF1B100F4AEAB /* Resources */,
+				3F3F647C256622E900F4AEAB /* Sources */,
+				3F3F647D256622E900F4AEAB /* Frameworks */,
+				3F3F647E256622E900F4AEAB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +81,25 @@
 			);
 			name = GeoWeather;
 			productName = GeoWeather;
-			productReference = 3F3F6440255CF1B100F4AEAB /* GeoWeather.app */;
+			productReference = 3F3F6480256622E900F4AEAB /* GeoWeather.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3F3F6438255CF1B100F4AEAB /* Project object */ = {
+		3F3F6478256622E900F4AEAB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = NorthWest;
 				TargetAttributes = {
-					3F3F643F255CF1B100F4AEAB = {
+					3F3F647F256622E900F4AEAB = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = 3F3F643B255CF1B100F4AEAB /* Build configuration list for PBXProject "GeoWeather" */;
+			buildConfigurationList = 3F3F647B256622E900F4AEAB /* Build configuration list for PBXProject "GeoWeather" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,47 +107,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 3F3F6437255CF1B100F4AEAB;
-			productRefGroup = 3F3F6441255CF1B100F4AEAB /* Products */;
+			mainGroup = 3F3F6477256622E900F4AEAB;
+			productRefGroup = 3F3F6481256622E900F4AEAB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F3F643F255CF1B100F4AEAB /* GeoWeather */,
+				3F3F647F256622E900F4AEAB /* GeoWeather */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3F3F643E255CF1B100F4AEAB /* Resources */ = {
+		3F3F647E256622E900F4AEAB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3F6458255CF3AC00F4AEAB /* light_background.pdf in Resources */,
-				3F3F6456255CF39500F4AEAB /* dark_background.pdf in Resources */,
-				3F3F644E255CF1B300F4AEAB /* LaunchScreen.storyboard in Resources */,
-				3F3F644B255CF1B300F4AEAB /* Assets.xcassets in Resources */,
+				3F3F648E256622EA00F4AEAB /* LaunchScreen.storyboard in Resources */,
+				3F3F648B256622EA00F4AEAB /* Assets.xcassets in Resources */,
+				3F3F6489256622E900F4AEAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3F3F643C255CF1B100F4AEAB /* Sources */ = {
+		3F3F647C256622E900F4AEAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3F6446255CF1B100F4AEAB /* ViewController.swift in Sources */,
-				3F3F6444255CF1B100F4AEAB /* AppDelegate.swift in Sources */,
+				3F3F6486256622E900F4AEAB /* ViewController.swift in Sources */,
+				3F3F6484256622E900F4AEAB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F3F644C255CF1B300F4AEAB /* LaunchScreen.storyboard */ = {
+		3F3F6487256622E900F4AEAB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3F3F644D255CF1B300F4AEAB /* Base */,
+				3F3F6488256622E900F4AEAB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3F648C256622EA00F4AEAB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3F648D256622EA00F4AEAB /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -158,7 +162,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3F3F6450255CF1B300F4AEAB /* Debug */ = {
+		3F3F6490256622EA00F4AEAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +223,7 @@
 			};
 			name = Debug;
 		};
-		3F3F6451255CF1B300F4AEAB /* Release */ = {
+		3F3F6491256622EA00F4AEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +278,7 @@
 			};
 			name = Release;
 		};
-		3F3F6453255CF1B300F4AEAB /* Debug */ = {
+		3F3F6493256622EA00F4AEAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +295,7 @@
 			};
 			name = Debug;
 		};
-		3F3F6454255CF1B300F4AEAB /* Release */ = {
+		3F3F6494256622EA00F4AEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -311,25 +315,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F3F643B255CF1B100F4AEAB /* Build configuration list for PBXProject "GeoWeather" */ = {
+		3F3F647B256622E900F4AEAB /* Build configuration list for PBXProject "GeoWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F3F6450255CF1B300F4AEAB /* Debug */,
-				3F3F6451255CF1B300F4AEAB /* Release */,
+				3F3F6490256622EA00F4AEAB /* Debug */,
+				3F3F6491256622EA00F4AEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F3F6452255CF1B300F4AEAB /* Build configuration list for PBXNativeTarget "GeoWeather" */ = {
+		3F3F6492256622EA00F4AEAB /* Build configuration list for PBXNativeTarget "GeoWeather" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3F3F6453255CF1B300F4AEAB /* Debug */,
-				3F3F6454255CF1B300F4AEAB /* Release */,
+				3F3F6493256622EA00F4AEAB /* Debug */,
+				3F3F6494256622EA00F4AEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3F3F6438255CF1B100F4AEAB /* Project object */;
+	rootObject = 3F3F6478256622E900F4AEAB /* Project object */;
 }
