@@ -2,13 +2,13 @@
 //  WeatherData.swift
 //  Clima
 //
-//  Created by Rohith Reddy and Soujanya Janapatla on 13/11/2020s.
+//  Created by Rohith Reddy Avisakula and Soujanya Janapatla on 13/11/2020s.
 //
 
 import Foundation
 
 struct WeatherData: Codable {
-    let name: String
+    let name: String 
     let main: Main
     let weather: [Weather]
 }
