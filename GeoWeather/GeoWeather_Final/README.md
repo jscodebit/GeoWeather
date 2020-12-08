@@ -20,6 +20,7 @@ By the end of the module, you will have made a beautiful, dark-mode enabled weat
 * Learn about the delegate pattern.
 * Swift protocols and extensions. 
 * Swift guard keyword. 
+* Swift is used for ios development.
 * Swift computed properties.
 * Swift closures and completion handlers.
 * Learn to use URLSession to network and make HTTP requests.
