@@ -2,7 +2,7 @@
 //  WeatherManager.swift
 //  Clima
 //
-//  Created by Angela Yu on 03/09/2019.
+//  Created by Rohith Reddy and Soujanya Janapatla.
 //  Copyright © 2019 App Brewery. All rights reserved.
 //
 
