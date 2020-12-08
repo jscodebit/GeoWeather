@@ -2,7 +2,7 @@
 //  WeatherModel.swift
 //  Clima
 //
-//  Created by Rohith Reddy and Soujanya Janapatla on 13/11/2020s.
+//  Created by Rohith Reddy Avisakula and Soujanya Janapatla on 13/11/2020s.
 //
 
 import Foundation
